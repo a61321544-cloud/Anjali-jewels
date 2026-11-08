@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  --color-maroon-800: #55152b;
+  --color-maroon-700: #681C36;
+  --color-maroon-600: #75253F;
+  --color-maroon-500: #882E4B;
+  --color-gold-600: #A88647;
+  --color-gold-500: #CBA458;
+  --color-gold-400: #E5BE65;
+  --color-gold-300: #F7D37D;
+  --color-royal-beige: #B39A7A;
+  --color-warm-beige: #A88D70;
+  --color-antique-beige: #C0A889;
+  --color-champagne-beige: #E2D2BB;
+  --color-luxury-text: #201418;
+  --color-luxury-muted: #4E3C36;
+  --color-luxury-border: #998063;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #B39A7A;
+    color: #201418;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Hide scrollbar for clean luxury horizontal carousel strips */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

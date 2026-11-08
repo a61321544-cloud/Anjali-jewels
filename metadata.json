@@ -1,0 +1,6 @@
+{
+  "name": "Anjali Jewels – Luxury Artificial Jewellery Boutique",
+  "description": "Discover handcrafted Kundan, Temple, Polki, and Crystal jewellery at Anjali Jewels. Royal heritage designs for weddings, celebrations, and festive moments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
